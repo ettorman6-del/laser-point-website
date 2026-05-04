@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin - Laser Point</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <h1>Pannello Amministratore</h1>
+  <div id="loginMessage">Verifica accesso...</div>
+  <div id="adminPanel" style="display:none;">
+    <h2>Aggiungi Prodotto</h2>
+    <form id="addProductForm">
+      <input type="text" id="prodName" placeholder="Nome" required>
+      <textarea id="prodDesc" placeholder="Descrizione"></textarea>
+      <input type="number" id="prodPrice" placeholder="Prezzo" step="0.01" required>
+      <input type="text" id="prodImage" placeholder="URL immagine">
+      <button type="submit">Aggiungi</button>
+    </form>
+    <h2>Prodotti esistenti</h2>
+    <ul id="productsListAdmin"></ul>
+  </div>
+  <a href="/">Torna alla Home</a>
+  <script type="module" src="/js/admin.js"></script>
+</body>
+</html>
