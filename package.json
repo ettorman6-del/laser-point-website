@@ -1,0 +1,14 @@
+{
+  "name": "laser-point",
+  "version": "1.0.0",
+  "description": "Laser Point - Sito vetrina per lavori a taglio laser",
+  "scripts": {
+    "dev": "wrangler pages dev public --binding SUPABASE_URL=URL_SUPABASE --binding SUPABASE_SERVICE_ROLE_KEY=SERVICE_ROLE_KEY"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
