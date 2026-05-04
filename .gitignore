@@ -1,0 +1,22 @@
+# Dipendenze (installate da npm)
+node_modules/
+
+# File di build e cache di Wrangler
+.wrangler/
+.dev.vars
+
+# File di ambiente locale (potrebbero contenere chiavi segrete)
+.env
+.env.local
+.env.*.local
+
+# File generati dal sistema operativo
+.DS_Store
+Thumbs.db
+
+# File di log
+*.log
+npm-debug.log*
+
+# Cartella delle funzioni compilate (se generata)
+functions-build/
