@@ -1,8 +1,8 @@
 import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
 
 // In produzione, usa le variabili d’ambiente di Cloudflare.
-const supabaseUrl = 'https://TUO_PROGETTO.supabase.co';
-const supabaseKey = 'TUA_ANON_KEY';
+const supabaseUrl = 'https://supabase.com/dashboard/project/lzsuifjeawzbevkajohh';
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx6c3VpZmplYXd6YmV2a2Fqb2hoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc5MTgwNTAsImV4cCI6MjA5MzQ5NDA1MH0.OC23ouLU-hA3phCgMxCDKk_AzRX0KYulAi_N5V3XSwU';
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 async function loadProducts() {
